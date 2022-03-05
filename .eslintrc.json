@@ -5,13 +5,13 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "standard"
+    "airbnb"
   ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": "latest",
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "plugins": [
@@ -27,6 +27,7 @@
         ]
       }
     ],
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off"
   }
 }
